@@ -1,0 +1,90 @@
+.letterContainer{
+    height: auto;
+    width:100vw;
+    padding: 2rem;
+}
+
+.letterBody{
+    height: 1000px;
+    width: 794px;
+    background-color: white;
+    display: grid;
+   
+}
+
+.LetterH{
+    height: 1fr;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+    text-align: left;
+    gap: 1rem;
+}
+
+.LetterH > h1  {
+    align-self: center;
+    width: 30%;
+    height: 100%;
+    padding: 0.5em;
+}
+
+.LetterH > .name > h1{
+    align-self: center;
+    height: 100%;
+}
+.LetterH > p  {
+    align-self: center;
+    width: 70%;
+    height: 100%;
+    padding: 0.5em;
+}
+
+.LetterH > div {
+    align-self: center;
+    text-align: left;
+    width: 70%;
+    height: auto;
+    display: grid;
+    gap: 0.4em;
+}
+
+.userInfo > p{
+    height: 1fr;
+    width: 25rem;
+    text-align: right;
+}
+
+.work-experience > div{
+    align-self: center;
+    text-align: left;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.Education > div{
+    align-self: center;
+    text-align: left;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.head{
+    font-size: x-large;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.next {
+    font-size: larger;
+    font-weight: 400;
+}
+.text{
+    margin-top: 1em;
+}

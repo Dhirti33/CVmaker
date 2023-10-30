@@ -1,0 +1,80 @@
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.7rem;
+}
+
+.educationDropdown {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.educationDropdown * {
+  box-sizing: border-box;
+}
+
+.schooledAt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.schooledAt > .caretEdu {
+  height: 0;
+  width: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid cadetblue;
+  transition: 0.3s;
+}
+
+.caretEdu-rotate {
+  transform: rotate(180deg);
+}
+
+.educationDetails {
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 0.5em;
+  top: 3.5rem;
+  left: 50%;
+  width: 29rem;
+  /* opacity: 0; */
+  display: flex;
+  transition: 0.2s;
+  z-index: 1;
+}
+
+.educationDetails-open {
+  display: flex;
+  opacity: 1;
+}
+
+.educationDetails > .edu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.PeriodEdu {
+  display: flex;
+  flex-direction: row;
+  width: 1fr;
+  gap: 0.2rem;
+}
+
+.PeriodEdu > input {
+  width: 50%;
+}
+
+.inputEdu {
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  padding-left: 0.5em;
+}

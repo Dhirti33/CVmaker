@@ -1,0 +1,22 @@
+.DetailedInfo{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 0.5rem;
+    height: 10rem auto;
+    border-radius: 10px;
+    background-color: beige;
+}
+
+input,textarea{
+    background-color: cadetblue;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}

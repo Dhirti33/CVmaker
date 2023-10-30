@@ -1,0 +1,17 @@
+.navBar {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid gray;
+    height: auto;
+    padding: 0.5em;
+    height: 5rem;
+}
+.navBarName{
+    font-weight: bolder;
+    color: rgb(7, 59, 61);
+}
+
+.navUserName{
+    font-style: italic;
+    color: rgba(0,0,0,0.7);
+}

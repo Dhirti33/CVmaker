@@ -1,0 +1,91 @@
+.yourExperience {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.7rem;
+  border-bottom: 2px solid gray;
+}
+
+.experienceDropdown {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.experienceDropdown * {
+  box-sizing: border-box;
+}
+
+.workAt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.workAt > .caretExp {
+  height: 0;
+  width: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid cadetblue;
+  transition: 0.3s;
+}
+
+.caretExp-rotate {
+  transform: rotate(180deg);
+}
+
+.jobDetails {
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 0.5em;
+  top: 3.5rem;
+  left: 50%;
+  width: 29rem;
+  display: flex;
+  transition: 0.2s;
+  z-index: 1;
+}
+
+.jobDetails-open {
+  display: flex;
+  opacity: 1;
+}
+
+.jobDetails > .exp {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.Period {
+  display: flex;
+  flex-direction: row;
+  width: 1fr;
+  gap: 0.2rem;
+}
+
+.Period > input {
+  width: 50%;
+}
+
+.inputEpx {
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  padding-left: 0.5em;
+}
+
+.Head{
+  font-size: x-large;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 0.5em;
+}
+
+.italic{
+  font-style: italic;
+}
